@@ -12,3 +12,5 @@ With this script a user can use there hand as a mouse.
 2. mediapipe
 3. pyautogui
 4. ctypes
+
+# run hand_tracking_cuda.py only if you have cuda setup
