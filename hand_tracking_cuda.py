@@ -92,7 +92,7 @@ class CursorSimulator:
         dx = 0 if abs(dx) < self.threshold else dx
         dy = 0 if abs(dy) < self.threshold else dy
         
-        # Negate dy to flip the Y direction
+        # Negate dy to flip the Y direction if needed
         dy = -dy
         
         # Use pyautogui to move the cursor based on the calculated dx and dy
