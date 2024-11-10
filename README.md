@@ -1,5 +1,5 @@
-# gesture_mouse
-With this script a user can use there hand as a mouse.
+# Air_mouse
+This program allows the user to control their cursour with hand movement and gestures
 
 # gestures. 
 1. Point your hand towards the camera. Your thumb movement will be used as the mouse movement
@@ -12,5 +12,6 @@ With this script a user can use there hand as a mouse.
 2. mediapipe
 3. pyautogui
 4. ctypes
+5. Torch (only needed if using cuda)
 
 # run hand_tracking_cuda.py only if you have cuda setup
